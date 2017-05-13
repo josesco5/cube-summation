@@ -4,6 +4,7 @@ import {hello} from './app/hello';
 import 'angular-ui-router';
 import routesConfig from './routes';
 
+import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 
 export const app = 'app';

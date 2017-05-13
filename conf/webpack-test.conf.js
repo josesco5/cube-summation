@@ -23,6 +23,12 @@ module.exports = {
         ]
       },
       {
+        test: /.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)$/,
+        loaders: [
+          'file-loader'
+        ]
+      },
+      {
         test: /\.html$/,
         loaders: [
           'html-loader'
