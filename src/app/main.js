@@ -1,5 +1,5 @@
-export const hello = {
-  template: require('./hello.html'),
+export const main = {
+  template: require('./main.html'),
   controller() {
     this.testCases = '';
     this.result = '';

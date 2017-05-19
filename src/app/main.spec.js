@@ -1,12 +1,12 @@
 import angular from 'angular';
 import 'angular-mocks';
-import {hello} from './hello';
+import {main} from './main';
 
 describe('hello component', () => {
   beforeEach(() => {
     angular
-      .module('fountainHello', ['app/hello.html'])
-      .component('fountainHello', hello);
+      .module('fountainHello', ['app/main.html'])
+      .component('fountainHello', main);
     angular.mock.module('fountainHello');
   });
   it('should render hello world', angular.mock.inject(($rootScope, $compile) => {
