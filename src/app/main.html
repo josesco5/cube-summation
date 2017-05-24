@@ -33,7 +33,11 @@
           <h3 class="panel-title">Result:</h3>
         </div>
         <div class="panel-body">
-          <div class="result">{{$ctrl.result}}</div>
+          <div class="result">
+            <ul class="list-unstyled">
+              <li ng-repeat="result in $ctrl.results track by $index">{{result}}</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
